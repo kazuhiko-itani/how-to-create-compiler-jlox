@@ -57,7 +57,7 @@ public class Scanner {
                 addToken(LEFT_PAREN);
                 break;
             case ')':
-                addToken(LEFT_PAREN);
+                addToken(RIGHT_PAREN);
                 break;
             case '{':
                 addToken(LEFT_BRACE);
